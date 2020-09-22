@@ -1,0 +1,135 @@
+  body{
+    background-image: url(https://www.oake.org/wp-content/uploads/2014/04/Kodaly-with-roses-children.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkgray;
+    } 
+
+#main{
+    background-color: rgba(188, 187, 184, 0.8);    
+    padding: 30px;
+    max-width: 750px;
+    margin:auto;
+    border-radius: 10px;
+    min-width: 20px;
+}
+
+#title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    line-height: 205%;
+    background-color: rgba(101, 167, 211, 1);
+    border-radius:20px;
+    color: darkblue;
+    width: 100%;
+    max-height: 200px;
+    text-shadow: 3px 3px gray;
+}
+#description{
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: antiquewhite;
+    background-color:rgba(30, 30, 50, 0.8) ;
+    padding: 13px;
+    border-style: double;
+    border-color:rgba(101, 167, 211, 1) ;
+    border-radius: 20px;
+    width: 100%;
+}
+#survey-form{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: antiquewhite;
+    background-color:rgba(30, 30, 100, 0.6) ;
+    padding: 13px;
+    border-radius: 20px;
+    border-style: double;
+    border-color: black;
+}
+#name-label{
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+#name{
+    margin: auto;
+    text-align: center;
+    
+}
+#email-label{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+#email{
+    text-align: center;
+}
+#number-label{
+    padding-left: 10px;
+    padding-right: 44px;
+    padding-top: 20px;
+}
+#number{
+    text-align: center;
+    width: 110px;
+ }
+#section1{
+    margin:auto;
+    max-width: 300px;
+}
+
+#section2{
+    margin:auto;
+    max-width: 200px;
+    padding-left: 100px;
+    padding-right: 44px;
+    padding-top: 20px;
+}
+#radio{
+    padding-left: 40px;
+}
+    
+#section3{
+    margin:auto;
+    max-width: 125px;
+    padding-left: 60px;
+    padding-right: 44px;
+    
+}
+#suggestions{
+    background-color: rgba(20, 33, 50, 0.7);
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+}
+#section4{
+    text-align: right;
+    margin:auto;
+    max-width: 300px;
+    padding-right: 60px;
+}
+#section5{
+    text-align: left;
+    margin:auto;
+    width: 100%;
+    min-width: 300px;
+    padding-right: 60px;
+}
+#comments{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section6{
+    display:block;
+    margin-left: 75%;
+}
+
+
+

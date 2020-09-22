@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> 
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+   <section id="main">
+       <div>
+           <h1 id="title">Kodály's apprentices Survey Form</h1>
+           <p id="description">This survey form has the purpose to know more about Kodály's concept practicioners and to improve the website to provide musical education of quality for everyone!</p>
+       </div>
+       <div>
+           <form id="survey-form" action="/server.php">
+              <div id="section1">
+              <label for="name" id="name-label">Name:</label>     <input  type="text" id="name"  placeholder="Enter your name" required>
+              <label for="email" id="email-label">Email:</label> 
+                  <input type="email" id="email" placeholder="Enter your email" required>
+              <label for="age" id="number-label">Age:</label>  
+                  <input type="number" id="number" min="6" max="100" maxlength="10" placeholder="Enter your age" step="1" required><br>
+                </div>
+               
+               <div id="section2">
+               <label for="gendergroup" id=gendergroup>Choose your gender:</label><br>
+               <div id="radio">
+               <label for="male">Male</label>
+               <input type="radio" id=male name="gender" value="male" required><br>
+               <label for="female">Female</label>
+               <input type="radio" id=female name="gender" value="female" required><br>
+               <label for="other">Other</label>
+               <input type="radio" id=other name="gender" value="other" required><br><br>
+               </div>
+               </div>
+               
+               <div id="section3">
+               <label for="ocupation">Choose your role:</label>
+               <select name=ocupation id="dropdown" required>
+                  <option value="teacher">Teacher</option>
+                  <option value="student">Student</option>
+                  <option value="instrumentalist">Instrumentalist</option>
+                  <option value="enthusiast">Enthusiast</option>
+                  <option  value="none">None</option>
+               </select><br>
+               </div>
+               <label for="suggestions"></label>
+               <p id=suggestions>What would you like to see in this page?</p>
+               <div id="section4">
+               <label for="historical info">Historical information: </label> 
+               <input type="checkbox" id=suggestion1 value=history> <br>
+               <label for="interviews">Interviews with Kodály teachers: </label> 
+               <input type="checkbox" id=suggestion2 value=interviews><br> 
+               <label for="songbook">Free folk songbook: </label> 
+               <input type="checkbox" id=suggestion3 value=songbook><br> 
+               <label for="Tips">Tips of the method: </label> 
+               <input type="checkbox" id=suggestion4 value=tips><br> 
+               <label for="application">Application of the method: </label> 
+               <input type="checkbox" id=suggestion5 value=application><br><br>              
+                </div>
+                <div id="section5">
+               <label for="comments">If you have another suggestion let us know:</label><br><br>
+               <textarea id=comments name=textbox rows="5" cols="50" placeholder="Please let us know how we can help in your musical journey...">  
+               </textarea><br>
+               </div>
+               <div id="section6">
+               <label for=submit> Save:</label>
+               <button type="submit" value="sumbit" id="submit">Submit</button>                     </div>    
+           </form>
+       </div>
+       
+   </section>
+   
+   
+   
+   
+   
+   
+    
+</body>
+</html>
